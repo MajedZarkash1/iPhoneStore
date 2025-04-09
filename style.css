@@ -1,0 +1,254 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dcdcdc;
+}
+
+/* Title */
+.title {
+    margin-top: 150px;
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.navbar h1
+{
+    color: #ffffff;
+    font-family: fantasy;
+    margin-left: 30px;
+    font-weight: 100;
+}
+.navbar a 
+{
+    font-family: fantasy;
+    padding: 9px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 10px;
+}
+.navbar a:hover
+{
+    color: gray;
+    font-size: 21px;
+}
+.content
+{
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 810px;
+    width: 90%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content h1
+{
+    text-align: center;
+    color: #ffffff;
+    font-family: fantasy;
+    font-weight: 50;
+    padding-top: 15px;
+}
+.list
+{
+    color: #ffffff;
+    /*border: 1px solid white;*/
+}
+.list th
+{
+    /*border: 1px solid white;*/
+}
+.list td
+{
+    /*border: 1px solid white;*/
+    padding: 100px;
+}
+.list td img
+{
+    margin: 0 auto;
+    max-width: 810px;
+    width: 90%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+}
+.list td img:hover
+{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.list tr th
+{
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+/*still not in use*/
+.square-right
+{
+    width: auto;
+    height: 500px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: #ffffff solid 1px;
+}
+/* image1 */
+.main-slide
+{
+    border-radius: 5px;
+    max-width: 810px;
+    width: 90%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    /*border: white solid 1px;*/
+}
+.slide
+{
+    width: auto;
+    height: 500px;
+    background-color: #000000;
+    margin-top: 20px;
+   /*border: #ffffff solid 1px;*/
+}
+.slide h1
+{
+    color: white;
+    margin-left:auto;
+    margin-right: auto;
+    font-family: fantasy;
+    font-weight: 100;
+}
+.slide h2
+{
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: cursive;
+    font-weight: 50;
+}
+.slide img
+{
+    margin-top: 50px;
+    width: 300px;
+}
+/* image 2*/
+.main-slide2
+{
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 810px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    /*border: white solid 1px;*/
+}
+.slide2
+{
+    width: auto;
+    height: 500px;
+    background-color: #000000;
+    margin-top: 20px;
+    border: #ffffff solid 1px;
+}
+.slide2 h1
+{
+    color: white;
+    margin-left:auto;
+    margin-right: auto;
+    font-family: fantasy;
+    font-weight: 100;
+}
+.slide2 h2
+{
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: cursive;
+    font-weight: 50;
+}
+.slide2 img
+{
+    margin-top: 50px;
+    width: 300px;
+}
+.deals-page
+{
+
+    background-color: #000000;
+    min-width: 1100px;
+    width: auto;
+    height: 550px;
+    margin-top: 150px;
+}
+.deals-page h2
+{
+    font-family: fantasy;
+    font-weight: 100;
+    color: #ffffff;
+}
+.deals-page img
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.footer
+{
+    width: 100px;
+    background-color: white;
+    margin-top: 60px;
+}
+.news
+{
+    background-color: #000000;
+    min-width: 1100px;
+    width: auto;
+    height: 550px;
+    margin-top: 150px;
+}
+.news h2
+{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-family: fantasy;
+    font-weight: 100;
+}
